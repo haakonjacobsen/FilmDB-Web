@@ -1,5 +1,5 @@
-# IT2810 - Team 55 -  Prosjekt 3
-Dette prosjektet er en filmdatabase laget ved hjelp av Node.js, React, Typescript, Redux for global state håndtering, MongoDB for databasen, Rest API for innhenting av data og Material UI og Semeatic UI for noen komponenter. Se Beskrivelse for utvidet infromasjon. 
+# IT2810: Prosjekt 3 - Filmdatabase
+Dette prosjektet er en filmdatabase laget ved hjelp av Node.js, React, Typescript, Redux for global state håndtering, MongoDB for databasen, REST server med Express for innhenting av data, Material UI og Semeatic UI for komponenter. Se Beskrivelse for utvidet infromasjon. 
 
 ![Illustrasjon 1](./frontend/public/illusration1.png)
 ![Illustrasjon 1](./frontend/public/illusration2.png)
@@ -9,12 +9,12 @@ Løsningen er laget i React, og initialisert med create-react-app, med typescrip
 * Søkemulighet ved hjelp av input felt.
 * Filtrerinsgmuligheter ved hjelp av slider for rangering og årstall, samt sjangervalg.
 * Sortering av utvalget etter navn, rangering, filmens varighet eller årstall, sant mulighet for å invertere resultatet.
-* Paginering slik at filmene presenteres i et sett.
+* Paginering slik at filmutvalget presenteres i deler.
 * Popup for å gi en mer detaljert beskrivelse av filmen.
 * Lagring av brukerdata ved hjelp av brukerlogging, og lagring/sletting av filmer til en "Movie list" unik for brukeren.
 * Database på virtuell maskin for å håndtere filmdata og brukerdata.
 
-Under utviklingen har vi brukt Redux for å håndtere states.
+Under utviklingen har vi brukt Redux for global state håndtering.
 
 For å håndtere databasen vår ble det brukt MongoDB.
 
